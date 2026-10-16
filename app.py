@@ -15,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom Styling
+## Custom Styling ##
 st.markdown("""
 <style>
     .main-title {
