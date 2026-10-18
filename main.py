@@ -13,10 +13,10 @@ def main():
     print("     (Logistic Regression | Random Forest | Gradient Boosting)    ")
     print("=" * 75)
 
-    # 1. Train and save models
+    # 1. Train and save model
     trained_models, preprocessor, X_test_trans, y_test, X_test_raw = train_all_models()
 
-    # 2. Evaluate all models
+    # 2.Evaluate all models
     summary_df = evaluate_models(
         models=trained_models,
         X_test=X_test_trans,
