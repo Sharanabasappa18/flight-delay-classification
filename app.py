@@ -80,7 +80,7 @@ if not check_models_exist():
 tabs = st.tabs(["🔮 Flight Delay Predictor", "📊 Model Comparison & Metrics", "📈 Operational Data Insights"])
 
 # ==========================================
-# TAB 1: INTERACTIVE PREDICTOR
+# TAB 1: INTERACTIVE PREDICTOR  
 # ==========================================
 with tabs[0]:
     st.subheader("Configure Flight Parameters")
