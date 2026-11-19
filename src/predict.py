@@ -6,11 +6,9 @@ from src.preprocessing import transform_data
 MODELS_DIR = "models"
 PREPROCESSOR_PATH = os.path.join(MODELS_DIR, "preprocessor.joblib")
 
-
 def get_model_path(model_name: str) -> str:
     slug = model_name.lower().replace(" ", "_")
     return os.path.join(MODELS_DIR, f"{slug}.joblib")
-
 
 def load_artifacts(model_name: str = "Random Forest"):
     """
