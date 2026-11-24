@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from src.data_loader import AIRLINES, AIRPORTS, WEATHER_CONDITIONS, load_flight_data
 from src.predict import predict_flight, load_artifacts, MODELS_DIR
 
